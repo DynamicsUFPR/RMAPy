@@ -35,7 +35,7 @@ some variations in how *kwarg* settings are implemented.
 
 ```python
 import numpy as np
-import rmapy as rma
+import recurrence_microstates as rma
 
 data = np.random.rand(3, 1000).astype(np.float64)
 dist = rma.distribution(data, 0.2, 3)
