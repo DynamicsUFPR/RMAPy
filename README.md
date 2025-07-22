@@ -15,8 +15,8 @@ pip install pybind11 setuptools numpy
 With the dependencies installed on your system, clone the `rmapy` GitHub
 repository into any directory and access the cloned repo folder:
 ```text
-git clone https://github.com/DynamicsUFPR/RMAPy.git
-cd RMAPy
+git clone https://github.com/DynamicsUFPR/recurrence-microstates-python.git
+cd recurrence-microstates-python
 ```
 
 Then, try installing it using:
@@ -25,7 +25,7 @@ pip install .
 ```
 
 There might be an issue with the `.so` file name. If this happens,
-try renaming the folder `RMAPy` to `rmapy`, and run `pip install .` again.
+try renaming the folder `recurrence-microstates-python` to `recurrence_microstates`, and run `pip install .` again.
 
 ## Library usage guide
 
